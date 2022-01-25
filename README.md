@@ -28,3 +28,9 @@ After compiling the code use the following command to run the program:
 java Iterator
 ```
 Then follow the instructions on the screen.
+
+## Questions
+
+If there are any questions regarding this program I can be contacted at tommskaife@gmail.com
+
+
