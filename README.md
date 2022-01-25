@@ -10,7 +10,7 @@ While coding this I made several assumptions, which are as follows:
 1. The values for A and X are both integers. This framework could work for doubles or floats with relatively few changes though, as the methodology is essentially the same.
 2. Surpassing a 'goal' (X,2X,3X) value counts as reaching that value, meaning that if the goal is 10, and the number iterates straight from 9 to 12, the goal is met. If this were not the case, most combinations would cause the code to iterate endlessly.
 3. Numbers are iterated from the last iterated number, even when a goal threshold is surpassed. For example if the A value was 2, and the X value was 5, the sequence would be: (2,4,6,9,12,16), not: (2,4,6,8,11,14,18) - (the second example iterates from the last goal threshold once it has been reached).
-4. We are working with postive integers only. This quickly eliminates the possibility of the program looping endlessly due to goals never beibng reached. The possibility of including negative numbers could be added later by imposing additional checks on the user input, but did not seem like an effective use of time or effort for this task. 
+4. We are working with positive integers only. This quickly eliminates the possibility of the program looping endlessly due to goals never being reached. The possibility of including negative numbers could be added later by imposing additional checks on the user input, but did not seem like an effective use of time or effort for this task. 
 
 
 ## Usage
